@@ -1,0 +1,95 @@
+body {
+  background: #f1f1f1;
+  max-width: 1440px;
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header .head__top {
+  height: 40px;
+  background: #D8BF95;
+}
+header .head__top p {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 11px;
+}
+header .head__bottom {
+  height: 88px;
+  padding: 0 30px;
+}
+header .head__bottom .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  text-transform: uppercase;
+}
+header .head__bottom .menu li {
+  list-style: none;
+}
+
+main .shop__all {
+  background: url(../img/shop-all.png);
+  position: relative;
+  height: 620px;
+  margin-bottom: 120px;
+}
+main .shop__all h2 {
+  position: absolute;
+  width: 90px;
+  right: 65px;
+  bottom: 100px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+main .show__myel {
+  position: relative;
+  margin-left: 64px;
+  margin-bottom: 115px;
+}
+main .show__myel h2 {
+  position: absolute;
+  right: 64px;
+}
+main .show__myel .text {
+  font-size: 64px;
+  line-height: 64px;
+  width: 60%;
+  padding-bottom: 30px;
+}
+main .show__myel .prscr {
+  font-size: 20px;
+  line-height: 25px;
+}
+main .show__new__arrivals {
+  padding: 0 64px;
+  margin-bottom: 160px;
+}
+main .show__new__arrivals h2 {
+  margin-bottom: 60px;
+}
+main .show__new__arrivals .slider {
+  display: flex;
+}
+main .show__new__arrivals .slider .product__left img, main .show__new__arrivals .slider .product__right img {
+  width: 340px;
+  height: 440px;
+}
+main .show__new__arrivals .slider .product__left .info, main .show__new__arrivals .slider .product__right .info {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
