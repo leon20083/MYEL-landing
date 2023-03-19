@@ -64,8 +64,16 @@ main
     .show__new__arrivals
         padding: 0 64px
         margin-bottom: 160px
+        position: relative
         h2
             margin-bottom: 60px
+        .owl-carousel
+            position: static
+            .owl-nav
+                position: absolute
+                //margin: 10px !important  
+                right: 0 
+                top: 0
         .slide
             display: flex
             .product__left
@@ -78,12 +86,54 @@ main
                     justify-content: space-between
             .product__right
                 @extend .product__left
-            //.center__slider
-.owl-carousel .owl-nav
-    position: absolute
-    margin: 100px !important  
+    .bonne__mine
+        display: flex
+        .bonne__mine-left
+            background: url(../img/bonne.jpg) no-repeat
+            height: 936px
+            width: 50%
+            margin-bottom: 20px
+        .bonne__mine-right
+            background: url(../img/t-shirt.png) no-repeat
+            height: 936px
+            width: 50%
+    .browse__by__categories
+        margin: 0 64px
+        h2
+            font-size: 24px
+            line-height: 30px
+            margin-bottom: 16px
+        .browse__by__categories-photo
+            display: flex !important
+            .slide
+                
+                img:not(:last-child)
+                    margin-right: 27px
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .show__now    
     .btn__product
         border: none    
 
+    
                 

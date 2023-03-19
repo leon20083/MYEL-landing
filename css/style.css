@@ -78,9 +78,18 @@ main .show__myel .prscr {
 main .show__new__arrivals {
   padding: 0 64px;
   margin-bottom: 160px;
+  position: relative;
 }
 main .show__new__arrivals h2 {
   margin-bottom: 60px;
+}
+main .show__new__arrivals .owl-carousel {
+  position: static;
+}
+main .show__new__arrivals .owl-carousel .owl-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 main .show__new__arrivals .slide {
   display: flex;
@@ -92,5 +101,36 @@ main .show__new__arrivals .slide .product__left img, main .show__new__arrivals .
 main .show__new__arrivals .slide .product__left .info, main .show__new__arrivals .slide .product__right .info {
   display: flex;
   justify-content: space-between;
+}
+main .bonne__mine {
+  display: flex;
+}
+main .bonne__mine .bonne__mine-left {
+  background: url(../img/bonne.jpg) no-repeat;
+  height: 936px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+main .bonne__mine .bonne__mine-right {
+  background: url(../img/t-shirt.png) no-repeat;
+  height: 936px;
+  width: 50%;
+}
+main .browse__by__categories {
+  margin: 0 64px;
+}
+main .browse__by__categories h2 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+main .browse__by__categories .browse__by__categories-photo {
+  display: flex !important;
+}
+main .browse__by__categories .browse__by__categories-photo .slide img:not(:last-child) {
+  margin-right: 27px;
+}
 
+.show__now .btn__product {
+  border: none;
 }/*# sourceMappingURL=style.css.map */
