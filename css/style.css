@@ -82,14 +82,15 @@ main .show__new__arrivals {
 main .show__new__arrivals h2 {
   margin-bottom: 60px;
 }
-main .show__new__arrivals .slider {
+main .show__new__arrivals .slide {
   display: flex;
 }
-main .show__new__arrivals .slider .product__left img, main .show__new__arrivals .slider .product__right img {
+main .show__new__arrivals .slide .product__left img, main .show__new__arrivals .slide .product__right img {
   width: 340px;
   height: 440px;
 }
-main .show__new__arrivals .slider .product__left .info, main .show__new__arrivals .slider .product__right .info {
+main .show__new__arrivals .slide .product__left .info, main .show__new__arrivals .slide .product__right .info {
   display: flex;
   justify-content: space-between;
+
 }/*# sourceMappingURL=style.css.map */
