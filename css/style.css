@@ -160,11 +160,182 @@ main .one-of-a-kind-books .books__left, main .one-of-a-kind-books .books__right 
 main .one-of-a-kind-books .books__right {
   background: url(../img/book.jpg) no-repeat;
 }
+main .together {
+  margin: 0 64px 20px 64px;
+}
 main .together p {
   font-size: 43px;
   line-height: 60px;
   width: 43%;
   margin-bottom: 65px;
+}
+main .together a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+main .together .together__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+main .together .together__item .item {
+  text-align: center;
+}
+main .together .together__item .item img {
+  width: 233px;
+  height: 233px;
+  margin-bottom: 70px;
+}
+main .together .together__item .item .num {
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 90px;
+  text-align: left;
+}
+main .together .together__item .item .descr {
+  font-size: 24px;
+  line-height: 30px;
+  width: 80%;
+  text-align: left;
+}
+main .fairmined__gold {
+  display: flex;
+  margin-bottom: 90px;
+}
+main .fairmined__gold .fairmined__gold__left {
+  background: url(../img/fairmined__gold-left.jpg) no-repeat;
+  width: 50%;
+  height: 936px;
+}
+main .fairmined__gold .fairmined__gold__right {
+  background: url(../img/fairmined__gold-right.jpg) no-repeat;
+  width: 50%;
+  height: 936px;
+  position: relative;
+}
+main .fairmined__gold .fairmined__gold__right h2 {
+  font-size: 48px;
+  line-height: 60px;
+  padding: 47px 50px;
+}
+main .fairmined__gold .fairmined__gold__right .descr {
+  position: absolute;
+  bottom: 64px;
+  left: 50px;
+}
+main .banner {
+  background: url(../img/banner.jpg) no-repeat;
+  height: 547px;
+  padding: 80px 64px 0 64px;
+  color: #FFFFFF;
+}
+main .banner .baner__menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 27px;
+}
+main .banner .title {
+  font-size: 46px;
+  line-height: 60px;
+  width: 24%;
+  margin: 180px 0 35px 0;
+}
+main .banner .descr {
+  padding-bottom: 60px;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  width: 30%;
+  position: relative;
+}
+main .banner .descr a {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+main .banner .descr a img {
+  width: 21px;
+  height: 8px;
+}
+
+footer {
+  display: flex;
+  padding: 0 64px;
+  position: relative;
+}
+footer li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+footer li a {
+  text-decoration: none;
+  color: #000;
+}
+footer .footer__menu__left {
+  width: 50%;
+}
+footer .footer__menu__left .shop__by .title {
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+footer .footer__menu__left .shop__by .first__menu {
+  display: flex;
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 90px;
+}
+footer .footer__menu__left .shop__by .first__menu li:not(:last-child) {
+  padding-right: 150px;
+}
+footer .footer__menu__left .footer__left__bottom {
+  display: flex;
+}
+footer .footer__menu__left .footer__left__bottom .social {
+  padding-right: 150px;
+}
+footer .footer__menu__left .footer__left__bottom .social p {
+  font-size: 22px;
+  line-height: 29px;
+  padding-bottom: 20px;
+}
+footer .footer__menu__left .footer__left__bottom .social .social__icon {
+  display: flex;
+}
+footer .footer__menu__left .footer__left__bottom .social .social__icon img {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+footer .footer__menu__left .footer__left__bottom .language {
+  padding-top: 30px;
+}
+footer .footer__menu__right {
+  display: flex;
+}
+footer .footer__menu__right p {
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+footer .footer__menu__right div:not(:last-child) {
+  padding-right: 160px;
+}
+footer .powered__by {
+  font-size: 14px;
+  line-height: 18px;
+  color: #9B9B9B;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding-bottom: 35px;
+}
+footer .powered__by p:not(:first-child) {
+  padding-right: 64px;
 }
 
 .show__now .btn__product {
