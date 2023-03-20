@@ -40,6 +40,18 @@ header .head__bottom .menu {
 header .head__bottom .menu li {
   list-style: none;
 }
+header .head__bottom .menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.language {
+  color: #c4c4c4;
+  text-transform: capitalize;
+}
+.language .active {
+  color: #000;
+}
 
 main .shop__all {
   background: url(../img/shop-all.png);
