@@ -99,16 +99,46 @@ main
             width: 50%
     .browse__by__categories
         margin: 0 64px
-        h2
+        position: relative
+        margin-bottom: 130px
+        h2  
             font-size: 24px
             line-height: 30px
             margin-bottom: 16px
-        .browse__by__categories-photo
-            display: flex !important
-            .slide
-                
-                img:not(:last-child)
-                    margin-right: 27px
+        .owl-carousel
+            position: static
+            .owl-nav
+                position: absolute
+                right: 0 
+                top: 0
+            .owl-dots
+                text-align: center
+                padding-top: 35px
+                .owl-dot
+                    background: #C4C4C4
+                    width: 6px
+                    height: 6px
+                    &.active
+                        background: #000
+                        width: 6px
+                        height: 6px
+    .one-of-a-kind-books
+        display: flex
+        margin-bottom: 90px
+        .books__left
+            background: url(../img/books.jpg) no-repeat
+            height: 936px
+            width: 50%
+        .books__right
+            background: url(../img/book.jpg) no-repeat
+            @extend .books__left
+    .together
+        p
+            font-size: 43px
+            line-height: 60px
+            width: 43%
+            margin-bottom: 65px
+        
                 
 
 

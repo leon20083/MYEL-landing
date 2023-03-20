@@ -118,17 +118,53 @@ main .bonne__mine .bonne__mine-right {
 }
 main .browse__by__categories {
   margin: 0 64px;
+  position: relative;
+  margin-bottom: 130px;
 }
 main .browse__by__categories h2 {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 16px;
 }
-main .browse__by__categories .browse__by__categories-photo {
-  display: flex !important;
+main .browse__by__categories .owl-carousel {
+  position: static;
 }
-main .browse__by__categories .browse__by__categories-photo .slide img:not(:last-child) {
-  margin-right: 27px;
+main .browse__by__categories .owl-carousel .owl-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+main .browse__by__categories .owl-carousel .owl-dots {
+  text-align: center;
+  padding-top: 35px;
+}
+main .browse__by__categories .owl-carousel .owl-dots .owl-dot {
+  background: #C4C4C4;
+  width: 6px;
+  height: 6px;
+}
+main .browse__by__categories .owl-carousel .owl-dots .owl-dot.active {
+  background: #000;
+  width: 6px;
+  height: 6px;
+}
+main .one-of-a-kind-books {
+  display: flex;
+  margin-bottom: 90px;
+}
+main .one-of-a-kind-books .books__left, main .one-of-a-kind-books .books__right {
+  background: url(../img/books.jpg) no-repeat;
+  height: 936px;
+  width: 50%;
+}
+main .one-of-a-kind-books .books__right {
+  background: url(../img/book.jpg) no-repeat;
+}
+main .together p {
+  font-size: 43px;
+  line-height: 60px;
+  width: 43%;
+  margin-bottom: 65px;
 }
 
 .show__now .btn__product {
