@@ -149,6 +149,10 @@ main .show__new__arrivals .slide .product__left .info, main .show__new__arrivals
           justify-content: space-between;
 }
 
+main .show__new__arrivals .slide .product__left .info .show__now .btn__product, main .show__new__arrivals .slide .product__right .info .show__now .btn__product {
+  border: none;
+}
+
 main .bonne__mine {
   display: -webkit-box;
   display: -ms-flexbox;
